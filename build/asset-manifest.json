@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TeoriaDelAprendizaje/static/css/main.399b62a4.css",
+    "main.js": "/TeoriaDelAprendizaje/static/js/main.691c4bac.js",
+    "static/media/enfoque.png": "/TeoriaDelAprendizaje/static/media/enfoque.ce52ee2ac8331734fe0e.png",
+    "static/media/circuloninos.jpg": "/TeoriaDelAprendizaje/static/media/circuloninos.c3f2248dc56619e1fe49.jpg",
+    "static/media/grafica.png": "/TeoriaDelAprendizaje/static/media/grafica.a36d6ae055c806f81f99.png",
+    "static/media/arte.jpeg": "/TeoriaDelAprendizaje/static/media/arte.acec77fcf0ddb3f905aa.jpeg",
+    "static/media/memoriaa.jpeg": "/TeoriaDelAprendizaje/static/media/memoriaa.f3923a34e04e90206b64.jpeg",
+    "static/media/vocal.jpeg": "/TeoriaDelAprendizaje/static/media/vocal.0991c3a62262f4f6936b.jpeg",
+    "static/media/mariamontessori.jpeg": "/TeoriaDelAprendizaje/static/media/mariamontessori.8f43cd37eb858185af24.jpeg",
+    "static/media/dog.jpeg": "/TeoriaDelAprendizaje/static/media/dog.48b28290537c5830c59b.jpeg",
+    "index.html": "/TeoriaDelAprendizaje/index.html",
+    "main.399b62a4.css.map": "/TeoriaDelAprendizaje/static/css/main.399b62a4.css.map",
+    "main.691c4bac.js.map": "/TeoriaDelAprendizaje/static/js/main.691c4bac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.399b62a4.css",
+    "static/js/main.691c4bac.js"
+  ]
+}
