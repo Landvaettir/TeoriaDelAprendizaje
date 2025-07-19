@@ -1,0 +1,133 @@
+.header {
+  background: linear-gradient(135deg, rgb(16, 28, 41), rgb(29, 31, 90));
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin: 0;
+  user-select: none;
+  position: relative;
+overflow: hidden;
+margin-top: -3rem;
+}
+
+.line-top {
+  display: inline-flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.teorias {
+  font-family: 'Notable', sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin: 0;
+  color: #2868c6;
+  transform: scaleX(1);
+  white-space: nowrap;
+}
+
+.del {
+  font-family: 'Delius', cursive;
+  font-size: 2.5rem;
+  margin: 1.1rem;
+  color: #91d2f4;
+  transform: scaleX(1);
+  white-space: nowrap;
+  align-self: flex-end;
+}
+
+.aprendizaje-wrapper {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  margin-top: -2.8rem;
+  box-sizing: border-box;
+}
+
+.aprendizaje {
+  font-family: 'Rouge Script', cursive;
+  font-size: 4rem;
+  margin: 0;
+  color: #cba2ea;
+  transform: scaleX(3.5);
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.star {
+  position: absolute;
+  top: -10px;
+  background: #91d2f4;
+  border-radius: 50%;
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fallingStar {
+  0% {
+    transform: translateY(-30px) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(120vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Opcional: para que texto quede encima */
+.line-top, .aprendizaje-wrapper {
+  position: relative;
+  z-index: 1;
+}
+/* ✅ Responsive ajustes */
+@media (max-width: 900px) {
+  .header {
+  margin-top: -3rem;
+  }
+  .teorias {
+      font-size: 4rem;
+    }
+    .del {
+      font-size: 1.4rem;
+      margin: 0.5rem;
+    }
+    .aprendizaje {
+      font-size: 2.2rem;
+      margin-top: 1.4rem;
+      transform: scaleX(2.8);
+    }
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin-top: -3rem;
+    }
+  .teorias {
+    font-size: 4rem;
+  }
+  .del {
+    font-size: 1.4rem;
+    margin: 0.5rem;
+  }
+  .aprendizaje {
+    font-size: 2.2rem;
+    margin-top: 1.4rem;
+    transform: scaleX(2.8);
+  }
+}
