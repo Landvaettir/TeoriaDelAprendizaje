@@ -4,8 +4,6 @@ import React from 'react';
 // import '@fontsource/rouge-script';
 import './Header.css';
 
-const NUM_STARS = 100; // muchas estrellitas
-
 const Header = () => {
     const stars = Array.from({ length: 100 });
 

@@ -11,6 +11,8 @@ import mapa from './assets/images/grafica.png';
 import memoriaImg from './assets/images/memoriaa.jpeg';
 import Enfoque from './assets/images/enfoque.png';
 import Circulo from './assets/images/circuloninos.jpg';
+import teoriaA from './assets/images/teorias1.jpeg';
+import teoriaB from './assets/images/teorias2.jpeg';
 
 function App() {
   const [modal, setModal] = useState(null);
@@ -530,6 +532,34 @@ function App() {
             wordSpacing: '0.1em',
             textAlign: 'justify'
           }}
+        />
+
+        <Section
+          descripcion={
+            <>
+              <div>
+                <img style={{ width: '100%', borderRadius: '10px' }}
+                  src={teoriaA}
+                  alt="Teorias 1 Img"
+                />
+              </div>
+            </>
+          }
+          estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
+        />
+
+        <Section
+          descripcion={
+            <>
+              <div>
+                <img style={{ width: '100%', borderRadius: '10px' }}
+                  src={teoriaB}
+                  alt="Teorias 2 Img"
+                />
+              </div>
+            </>
+          }
+          estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
         />
       </div >
 
