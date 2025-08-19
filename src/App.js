@@ -13,6 +13,9 @@ import Enfoque from './assets/images/enfoque.png';
 import Circulo from './assets/images/circuloninos.jpg';
 import teoriaA from './assets/images/teorias1.jpeg';
 import teoriaB from './assets/images/teorias2.jpeg';
+import constructivismo from './assets/images/contructivismo.jpeg';
+import nem from './assets/images/nem.jpeg';
+import aprendSign from './assets/images/aprendsign.jpeg';
 
 function App() {
   const [modal, setModal] = useState(null);
@@ -561,6 +564,49 @@ function App() {
           }
           estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
         />
+
+        <Section
+          descripcion={
+            <>
+              <div>
+                <img style={{ width: '100%', borderRadius: '10px' }}
+                  src={constructivismo}
+                  alt="Constructivismo Img"
+                />
+              </div>
+            </>
+          }
+          estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
+        />
+
+        <Section
+          descripcion={
+            <>
+              <div>
+                <img style={{ width: '100%', borderRadius: '10px' }}
+                  src={nem}
+                  alt="NEM Img"
+                />
+              </div>
+            </>
+          }
+          estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
+        />
+
+        <Section
+          descripcion={
+            <>
+              <div>
+                <img style={{ width: '100%', borderRadius: '10px' }}
+                  src={aprendSign}
+                  alt="Aprendizaje Significativo Img"
+                />
+              </div>
+            </>
+          }
+          estiloTarjeta={{ background: '#DAF0F4', flex: '1 1 45%', minWidth: '300px' }}
+        />
+
       </div >
 
 
