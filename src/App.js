@@ -610,27 +610,33 @@ function App() {
         <Section
           titulo="Aprendizaje basado en problemas"
           descripcion={
-            <div
-              style={{
-                position: 'relative',
-                width: '100%',
-                paddingTop: '77.2727%'
-              }}
+            <div style={{
+              position: 'relative',
+              width: '100%',
+              height: 0,
+              paddingTop: '77.2727%',
+              paddingBottom: 0,
+              boxShadow: '0 2px 8px 0 rgba(63,69,81,0.16)',
+              marginTop: '1.6em',
+              marginBottom: '0.9em',
+              overflow: 'hidden',
+              borderRadius: '8px',
+              willChange: 'transform' }}
             >
-              <iframe
-                loading="lazy"
-                style={{
-                  position: 'absolute',
-                  width: '100%',
-                  height: '100%',
-                  top: '50%',
-                  left: 0,
-                  border: 'none'
-                }}
+              <iframe loading="lazy"
+              style={{
+                position: 'absolute',
+                width: '100%',
+                height: '100%',
+                top: 0,
+                left: 0,
+                border: 'none',
+                padding: 0,
+                margin: 0 }}
                 src="https://www.canva.com/design/DAGwdT53f7Q/qZUmuLjBXUYqy3fZQBHnLw/view?embed"
-                allowFullScreen
-                allow="fullscreen"
-              ></iframe>
+                allowFullScreen="allowfullscreen"
+                allow="fullscreen">
+              </iframe>
             </div>
           }
           estiloTarjeta={{ background: '#E0DAF4', flex: '1 1 45%', minWidth: '300px' }}
@@ -667,8 +673,7 @@ function App() {
               borderRadius: '8px',
               willChange: 'transform' }}
             >
-              <iframe 
-              loading="lazy"
+              <iframe loading="lazy"
               style={{
                 position: 'absolute',
                 width: '100%',
